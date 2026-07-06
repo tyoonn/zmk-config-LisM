@@ -3,7 +3,7 @@
 / {
     mouse_runtime_input_processor_central: mouse_runtime_input_processor_central {
         compatible = "zmk,input-processor-runtime";
-        processor-label = "mouse";
+        processor-label = "central";
         type = <INPUT_EV_REL>;
         x-codes = <INPUT_REL_X>;
         y-codes = <INPUT_REL_Y>;
@@ -21,7 +21,7 @@
 
     mouse_runtime_input_processor_peripheral: mouse_runtime_input_processor_peripheral {
         compatible = "zmk,input-processor-runtime";
-        processor-label = "mouse";
+        processor-label = "periph";
         type = <INPUT_EV_REL>;
         x-codes = <INPUT_REL_X>;
         y-codes = <INPUT_REL_Y>;
